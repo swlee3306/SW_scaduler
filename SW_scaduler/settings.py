@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'SW_scaduler.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '127.0.0.1',
+        'HOST': '0.0.0.0',
         'NAME': 'mysql-db',
         'USER': 'root',
         'PASSWORD': 'password',
