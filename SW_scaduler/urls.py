@@ -16,7 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from templates.view import first_page
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', first_page),
-]
+    path('login/', include('login.urls')),
+] 
+

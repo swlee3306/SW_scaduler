@@ -105,7 +105,7 @@
 .icon-trash-o:before {
   content: "\f014";
 }
-.icon-:before {
+.icon-home:before {
   content: "\f015";
 }
 .icon-file-o:before {
@@ -714,7 +714,7 @@
 .icon-dashboard:before {
   content: "\f0e4";
 }
-.icon-tacter:before {
+.icon-tachometer:before {
   content: "\f0e4";
 }
 .icon-comment-o:before {
@@ -3540,7 +3540,7 @@
 .icon-restore:before {
   content: "\e8b3";
 }
-.icon-2:before {
+.icon-home2:before {
   content: "\e88a";
 }
 .icon-hot_tub:before {
