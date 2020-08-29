@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
-from rest_framework.Response import Response
+from rest_framework.response import Response
 from .models import LoginUser
 # Create your views here.
 
@@ -12,11 +12,10 @@ class RegistUser(APIView):
 
         LoginUser.objects.create(user_id=user_id, user_pw=user_pw)
 
-        data = dict{
+        data = dict(
             user_id = user_id,
             user_pw = user_pw
-
-        }
+        )
 
         return Response(data)
 
