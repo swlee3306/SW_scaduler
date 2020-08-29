@@ -39,7 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'login',
+    "encrypted_fields",
 ]
+
+FIELD_ENCRYPTION_KEYS = [ "f164ec6bd6fbc4aef5647abc15199da0f9badcc1d2127bde2087ae0d794a9a0b" ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -79,7 +82,8 @@ WSGI_APPLICATION = 'SW_scaduler.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '127.0.0.1',
+        'HOST' : 'swlee.mynetgear.com',
+        # 'HOST': '127.0.0.1',
         'NAME': 'SW_scaduler',
         'USER': 'root',
         'PASSWORD': 'password',
