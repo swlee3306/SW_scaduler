@@ -13,3 +13,4 @@ class Todo_list(models.Model):
     class Meta:
         managed = False
         db_table = 'todo_list'
+        verbose_name = 'todo_list'
