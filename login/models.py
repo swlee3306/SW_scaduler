@@ -9,4 +9,4 @@ class LoginUser(models.Model):
     #user_pw = fields.EncryptedCharField(max_length=20, null=False, default=False)
     class Meta: 
         db_table = 'login_user' 
-        verbose_name = '로그인 테스트 테이블'
+        verbose_name = 'user_Table'
