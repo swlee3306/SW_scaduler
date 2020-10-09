@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'SW_scaduler.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        #'HOST' : 'swlee.mynetgear.com',
+         #'HOST' : 'swlee.mynetgear.com',
         'HOST': '127.0.0.1',
         'NAME': 'SW_scaduler',
         'USER': 'root',
